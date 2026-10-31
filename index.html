@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rebook Co · Win back your past clients</title>
+<meta name="description" content="Rebook Co runs win-back campaigns for salons, beauty studios and gyms in Sydney. $200 per campaign, and you pay nothing if fewer than 5 clients rebook.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root { --ink:#1d1a17; --muted:#6b635b; --bg:#fbf7f2; --card:#fff; --accent:#c2502e; --soft:#f3e7dc; --line:#e8ddd1; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:Inter,system-ui,sans-serif; color:var(--ink); background:var(--bg); line-height:1.6; }
+  .wrap { max-width:960px; margin:0 auto; padding:0 20px; }
+  header { padding:22px 0; display:flex; justify-content:space-between; align-items:center; }
+  .logo { font-family:Fraunces,serif; font-size:22px; font-weight:600; letter-spacing:-.01em; }
+  .logo span { color:var(--accent); }
+  .btn { display:inline-block; background:var(--accent); color:#fff; text-decoration:none; padding:12px 22px;
+         border-radius:999px; font-weight:600; }
+  .btn.ghost { background:none; color:var(--ink); border:1.5px solid var(--ink); padding:9px 18px; }
+  .hero { padding:56px 0 64px; }
+  h1 { font-family:Fraunces,serif; font-size:clamp(34px,6vw,56px); line-height:1.08; letter-spacing:-.02em; max-width:14ch; }
+  .lede { font-size:19px; color:var(--muted); max-width:52ch; margin:20px 0 30px; }
+  .pill { display:inline-block; background:var(--soft); color:var(--accent); font-weight:600; font-size:14px;
+          padding:6px 14px; border-radius:999px; margin-bottom:18px; }
+  h2 { font-family:Fraunces,serif; font-size:30px; letter-spacing:-.01em; margin-bottom:22px; }
+  section { padding:52px 0; border-top:1px solid var(--line); }
+  .steps { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:16px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:22px; }
+  .num { font-family:Fraunces,serif; color:var(--accent); font-size:26px; }
+  .card h3 { font-size:17px; margin:6px 0; }
+  .card p { color:var(--muted); font-size:15px; }
+  .sms { background:var(--card); border:1px solid var(--line); border-radius:20px 20px 20px 4px; padding:18px 20px;
+         max-width:420px; font-size:15px; box-shadow:0 6px 24px rgba(60,40,20,.06); }
+  .price { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+  .price .card strong { font-family:Fraunces,serif; font-size:40px; display:block; }
+  ul.ticks { list-style:none; padding:0; }
+  ul.ticks li { padding-left:26px; position:relative; margin:8px 0; }
+  ul.ticks li::before { content:"✓"; position:absolute; left:0; color:var(--accent); font-weight:700; }
+  .cols { display:grid; grid-template-columns:1fr 1fr; gap:36px; align-items:center; }
+  footer { padding:36px 0 50px; color:var(--muted); font-size:14px; border-top:1px solid var(--line); }
+  @media (max-width:700px) { .price, .cols { grid-template-columns:1fr; } .hero { padding:30px 0 44px; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">Rebook<span>.</span>Co</div>
+    <a class="btn ghost" href="mailto:outreach@rebookco.com?subject=Win-back%20campaign">Email us</a>
+  </header>
+
+  <div class="hero">
+    <span class="pill">For salons, beauty studios &amp; gyms in Sydney</span>
+    <h1>Your past clients, back in the chair.</h1>
+    <p class="lede">Most clients who stop booking didn't leave you. Life got busy and nobody reminded them. We run one
+      friendly win-back campaign through the booking system you already use, and you only pay if it works.</p>
+    <a class="btn" href="mailto:outreach@rebookco.com?subject=Win-back%20campaign">Get your campaign plan</a>
+  </div>
+
+  <section>
+    <h2>How it works</h2>
+    <div class="steps">
+      <div class="card"><div class="num">1</div><h3>We find who's gone quiet</h3>
+        <p>Clients who haven't booked in months, pulled inside your own booking system (Fresha, Timely, Kitomba,
+          Mindbody and more).</p></div>
+      <div class="card"><div class="num">2</div><h3>You approve the offer</h3>
+        <p>We write a short SMS and email. You choose the offer and sign off every word before anything goes out.</p></div>
+      <div class="card"><div class="num">3</div><h3>It goes out from you</h3>
+        <p>Sent from your own account, plus one reminder 5 days later. Your client list never leaves your system.</p></div>
+      <div class="card"><div class="num">4</div><h3>You see the result</h3>
+        <p>After 14 days: a one-page report showing who rebooked and what it was worth.</p></div>
+    </div>
+  </section>
+
+  <section class="cols">
+    <div>
+      <h2>Short, personal, easy to say yes to</h2>
+      <p style="color:var(--muted)">One clear offer, a deadline and your booking link. Every message names your
+        business and includes an opt-out, as Australian law requires.</p>
+    </div>
+    <div class="sms">Hi Sarah, it's Bloom Hair! It's been a while since your last visit. We'd love to see you again:
+      book this month and get a free treatment with your cut. bloomhair.com.au/book &nbsp;Reply STOP to opt out</div>
+  </section>
+
+  <section>
+    <h2>Simple pricing</h2>
+    <div class="price">
+      <div class="card"><strong>$200</strong><p>per campaign, flat</p>
+        <ul class="ticks"><li>Lapsed-client list, SMS + email copy</li><li>Send and one reminder</li>
+          <li>14-day results report</li><li><b>Fewer than 5 rebookings? You pay nothing.</b></li></ul></div>
+      <div class="card"><strong>$99<small style="font-size:18px">/mo</small></strong><p>always-on win-back</p>
+        <ul class="ticks"><li>A fresh campaign every month</li><li>Rotating offers so it never gets stale</li>
+          <li>Monthly report</li><li>Cancel any time</li></ul></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Questions</h2>
+    <p><b>Do you need my client list?</b> No. We work inside your booking system as a staff user, and nothing is exported.</p><br>
+    <p><b>Who pays for the SMS?</b> Some booking systems charge a few cents per SMS on your normal bill. We'll tell you the
+      cost before anything goes out.</p><br>
+    <p><b>Is it legal?</b> Yes. Messaging your own past clients is allowed under the Spam Act, as long as every message names
+      your business and has an opt-out. Your booking system adds the opt-out automatically.</p>
+  </section>
+
+  <footer>
+    Rebook Co · Sydney, NSW · <a href="mailto:outreach@rebookco.com" style="color:inherit">outreach@rebookco.com</a>
+  </footer>
+</div>
+</body>
+</html>
